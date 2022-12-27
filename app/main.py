@@ -31,5 +31,5 @@ app.include_router(vote.router)
 # root
 @app.get("/")
 def root():
-    return {"message": "Welcome to my server!"}
+    return {"message": "This is a social media API to manage users and posts. \n created by Kevin October."}
 
